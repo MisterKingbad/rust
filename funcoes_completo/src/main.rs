@@ -18,6 +18,17 @@ fn retorna_flot(par_a: f32, par_b: f32) -> f32 {
 
 fn main() {
     println!("O dobro do numero 5 é {}", dobro(5));
-
     println!("O maior do numero entre 5 e 4 é {}", maior(4, 5));
+
+
+    let faixa = 1..=20;
+    for i in faixa {
+      println!("O numero esta variando entre {}", i)
+    }
+
+    let animais = vec!["Coelho", "Gato", "Macaco"];
+
+    for a in animais {
+      println!("o animal a seguir é o {}", a);
+    }
 }
