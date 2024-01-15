@@ -10,6 +10,12 @@ fn maior(a: i32, b:i32) -> i32 {
   }
 }
 
+fn retorna_flot(par_a: f32, par_b: f32) -> f32 {
+  println!("Essa função devolve um valor flutuante");
+  let x = 10.1f32 * par_a + par_b as f32;
+  x
+}
+
 fn main() {
     println!("O dobro do numero 5 é {}", dobro(5));
 
